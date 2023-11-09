@@ -14,6 +14,11 @@
             return this._balance;
         }
     }
+    class StudentAccount extends BankAccount {
+        test() {
+            this._balance;
+        }
+    }
     const goribManusherrAccount = new BankAccount(101, "Mr. gorib", 20);
     goribManusherrAccount.addDeposit(20);
     const myBalance = goribManusherrAccount.getBalance();
